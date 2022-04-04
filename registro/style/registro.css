@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  background-image: url("https://it.vecteezy.com/arte-vettoriale/1632448-blu-scuro-strisce-geometriche-sovrapposte-sfondo");
+}
+
+.container {
+  background-color: #02253dd1;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+  
+}
+
+.header {
+  background-color: #02253d15;
+  padding: 20px 40px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #021D35;
+  background-color: #021D35;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.347);
+  color: white;
+
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: white;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  float: left;
+  background-color: #021D35;
+  border: 2px solid #021D35;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.347);
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+.form button:hover{
+  background-color: #021d35a8;
+  border: 2px solid #021d35a8;
+
+}
+
+#toggle {
+  position: absolute;
+  top: 52%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: url(img/ojo.png);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.ejemplo {
+  position: absolute;
+  top: 53%;
+  right: -35px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: url(interr.png);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.ejemplo .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  z-index: 1;
+}
+
+.ejemplo:hover .tooltiptext {
+  float: left;
+  visibility: visible;
+}
+
+#btnCancelar {
+
+  float: left;
+  background-color: #021D35;
+  border: 2px solid #021D35;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.347);
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  width: 40%;
+}
+
+#btnCancelar:hover {
+  background-color: #021d35a8;
+  border: 2px solid #021d35a8;
+}
